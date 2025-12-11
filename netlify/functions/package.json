@@ -1,0 +1,9 @@
+{
+  "name": "roothaus-functions",
+  "version": "1.0.0",
+  "description": "Dependencies for RootHaus Netlify Functions",
+  "main": "create-checkout-session.js",
+  "dependencies": {
+    "stripe": "^14.0.0"  // Use the latest stable version
+  }
+}
