@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - RootHaus</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 70vh;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 700;
+            color: #C19A6B;
+            margin-bottom: 1rem;
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #20110B;
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .error-message {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            color: #6B6B6B;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+        .btn-primary {
+            background: #C19A6B;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .btn-primary:hover {
+            background: #A87A4B;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">The page you're looking for doesn't exist or has been moved. Return to our homepage to continue shopping.</p>
+        <a href="index.html" class="btn-primary">Go to Homepage</a>
+    </div>
+</body>
+</html>

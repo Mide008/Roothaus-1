@@ -1,0 +1,18 @@
+{
+  "name": "roothaus",
+  "version": "1.0.0",
+  "description": "RootHaus - Premium Handcrafted Leather Goods E-commerce",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed successfully'",
+    "dev": "echo 'Open index.html in browser'"
+  },
+  "keywords": [
+    "ecommerce",
+    "leather",
+    "handcrafted",
+    "luxury"
+  ],
+  "author": "RootHaus",
+  "license": "MIT"
+}
