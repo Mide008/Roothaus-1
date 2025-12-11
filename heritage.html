@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the heritage and story behind RootHaus - luxury Nigerian-inspired leather goods.">
+    <title>Our Heritage - RootHaus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="./images/logo.png" alt="RootHaus Logo" class="logo-img">
+            </a>
+            
+            <div class="nav-links">
+                <a href="men.html" class="nav-link">Men</a>
+                <a href="women.html" class="nav-link">Women</a>
+                <a href="pets.html" class="nav-link">Pets</a>
+                <a href="accessories.html" class="nav-link">Accessories & Homewares</a>
+                <a href="heritage.html" class="nav-link active">Our Heritage</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <a href="cart.html" class="cart-link" id="cartLink">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Search Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                <button class="search-close" id="searchClose">&times;</button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="heritage-hero">
+        <div class="container">
+            <h1 class="heritage-title">Our Heritage</h1>
+            <p class="heritage-subtitle">Rooted in tradition, crafted for generations</p>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-content-full">
+                <h2>The Meaning of RootHaus</h2>
+                <p>The name RootHaus—Root & Hide Co.—is a synthesis of global luxury and profound cultural significance. 'Root' honors the resilient Iroko tree, a symbol of strength and longevity in West Africa, representing our deep connection to heritage.</p>
+                <p>'Haus' speaks to the house of craft, where every hide is transformed into an heirloom. Our brand is built on the philosophy of balance and justice, mirroring the celestial alignment and the equilibrium of nature.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Iroko Tree Section -->
+    <section class="iroko-section">
+        <div class="container">
+            <div class="iroko-grid">
+                <div class="iroko-image">
+                    <img src="./images/iroko-tree-2.jpg" alt="Iroko Tree" loading="lazy">
+                </div>
+                <div class="iroko-content">
+                    <h2>The Iroko Tree</h2>
+                    <h3>Symbol of Strength and Longevity</h3>
+                    <p>The Iroko tree stands as one of Africa's most majestic trees, revered across West African cultures for its incredible strength and endurance. Growing up to 50 meters tall and living for hundreds of years, the Iroko embodies the resilience and longevity we aspire to in every piece we create.</p>
+                    <p>Just as the Iroko's roots run deep into the earth, our designs are deeply rooted in Nigerian heritage and traditional craftsmanship. The tree's ability to weather storms and stand strong through generations mirrors our commitment to creating leather goods that become family heirlooms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="heritage-values">
+        <div class="container">
+            <h2 class="section-title">Our Values</h2>
+            <div class="values-detailed">
+                <div class="value-detail">
+                    <div class="value-icon-large">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Heritage</h3>
+                    <p>Drawing inspiration from Nigerian artistry and the timeless symbolism of the Iroko tree, our designs are built to connect past and present. Each piece tells a story of cultural pride, traditional craftsmanship, and the enduring spirit of West African heritage. We honor the artisans who came before us while creating pieces that speak to the modern world.</p>
+                </div>
+                
+                <div class="value-detail">
+                    <div class="value-icon-large">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Craft</h3>
+                    <p>Only the finest hides, ethically sourced, and meticulously worked by master artisans ensure that every piece is an heirloom, not just an accessory. Our commitment to excellence means every stitch, every cut, and every finish is executed with precision and care. We believe in the slow craft movement—taking the time needed to create something truly exceptional that will last for generations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Craftsmanship Process -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">Our Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Material Selection</h3>
+                    <p>We source only the finest full-grain leather from ethical suppliers, ensuring each hide meets our exacting standards for quality and character.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Hand Cutting</h3>
+                    <p>Master craftsmen cut each piece by hand, respecting the natural grain and unique characteristics of the leather.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Traditional Assembly</h3>
+                    <p>Using time-honored techniques passed down through generations, we assemble each piece with saddle stitching for unmatched durability.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Final Finishing</h3>
+                    <p>Every edge is burnished, every surface conditioned, and every detail perfected before it bears the RootHaus name.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="heritage-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Become Part of Our Story</h2>
+                <p>Discover pieces that connect you to a rich heritage of craftsmanship</p>
+                <div class="cta-buttons">
+                    <a href="men.html" class="btn btn-primary">Shop Men</a>
+                    <a href="women.html" class="btn btn-primary">Shop Women</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="./images/favicon 2.png" alt="RootHaus Logo" class="footer-logo">
+                    <p class="footer-tagline">Heritage craftsmanship meets modern luxury</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg></a>
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="pets.html">Pets</a></li>
+                        <li><a href="accessories.html">Accessories & Homewares</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="heritage.html">Our Heritage</a></li>
+                        <li><a href="craftsmanship.html">Craftsmanship</a></li>
+                        <li><a href="sustainability.html">Sustainability</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="shipping.html">Shipping & Returns</a></li>
+                        <li><a href="care-guide.html">Care Guide</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="size-guide.html">Size Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 RootHaus - Root & Hide Co. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+    <style>
+        .heritage-hero {
+            padding: 12rem 0 6rem;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+        }
+
+        .heritage-title {
+            font-size: clamp(3rem, 7vw, 6rem);
+            margin-bottom: 1rem;
+        }
+
+        .heritage-subtitle {
+            font-size: 1.5rem;
+        }
+
+        .story-section {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .story-content-full {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .story-content-full h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .story-content-full p {
+            font-size: 1.2rem;
+            line-height: 2;
+            margin-bottom: 1.5rem;
+            color: var(--grey);
+        }
+
+        .iroko-section {
+            padding: 6rem 0;
+        }
+
+        .iroko-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .iroko-image img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .iroko-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .iroko-content h3 {
+            font-size: 1.5rem;
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .iroko-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: var(--grey);
+        }
+
+        .heritage-values {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .values-detailed {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 4rem;
+            margin-top: 4rem;
+        }
+
+        .value-detail {
+            text-align: center;
+        }
+
+        .value-icon-large {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+
+        .value-detail h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .value-detail p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--grey);
+        }
+
+        .process-section {
+            padding: 6rem 0;
+            background: var(--light);
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .process-step {
+            text-align: center;
+        }
+
+        .step-number {
+            font-size: 4rem;
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .process-step h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .process-step p {
+            color: var(--grey);
+            line-height: 1.8;
+        }
+
+        .heritage-cta {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--dark) 0%, var(--secondary) 100%);
+            color: white;
+        }
+
+        .cta-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 1024px) {
+            .iroko-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .values-detailed {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
